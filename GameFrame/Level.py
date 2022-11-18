@@ -124,7 +124,7 @@ class Level:
             (mouse_x, mouse_y) = pygame.mouse.get_pos()
             (button_left, button_middle, button_right) = pygame.mouse.get_pressed()
             for obj in self.mouse_objects:
-                    obj.mouse_event(mouse_x, mouse_y, button_left, button_middle, button_right)
+                obj.mouse_event(mouse_x, mouse_y, button_left, button_middle, button_right)
 
             # - Handle all other events - #
             self.catch_events(events)
@@ -188,7 +188,7 @@ class Level:
             self.mouse_objects.append(room_object)
 
         if self.running:
-            self.init_collision_list(obj)
+            self.init_collision_list(room_object)
 
     def load_sound(self, sound_file: str) -> Sound:
         fq_filename = os.path.join('Sounds', sound_file)

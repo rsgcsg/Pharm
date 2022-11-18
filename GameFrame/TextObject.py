@@ -23,3 +23,4 @@ class TextObject(RoomObject):
         self.image = self.rendered_text
         self.width, self.height = self.built_font.size(self.text)
         self.rect = pygame.Rect(self.x, self.y, self.width, self.height)
+

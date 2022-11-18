@@ -18,7 +18,6 @@ class EntryTextObject(TextObject):
 
     def key_pressed(self, key):
         if self.accepting_input and self.active:
-
             key_recognised = False
             if key[pygame.K_a]:
                 self.text += 'A'
