@@ -23,3 +23,5 @@ and running setup.py with the command build_exe.
     python setup.py build_exe
 
 ### Chen Sunguo Record
+#### git knowledge
+
