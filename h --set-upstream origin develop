@@ -1,0 +1,390 @@
+[33mcommit 399cfd7e41a855fc031cbde2620a585153e9f2c7[m[33m ([m[1;36mHEAD -> [m[1;32mdevelop[m[33m, [m[1;31morigin/develop[m[33m)[m
+Author: Sunguo Chen <chensunguo1210@hotmail.com>
+Date:   Wed Dec 21 13:34:11 2022 +1000
+
+    fix/readme
+
+[33mcommit 35339962c408e13b07cab1c47fe29765e97c57cf[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Sunguo Chen <chensunguo1210@hotmail.com>
+Date:   Wed Dec 21 13:24:55 2022 +1000
+
+    feat/edit readme
+
+[33mcommit 1988efdbd190331920ef7904c74545753bbd1c91[m
+Author: rsgcsg <chensunguo1210@hotmail.com>
+Date:   Fri Nov 18 22:34:38 2022 +1000
+
+    update a new game by kimChen
+
+[33mcommit e166b55f48b9f143d489e5279bfbd9285c312d9f[m
+Author: KOUTSOUKIS <tkout0@eq.edu.au>
+Date:   Mon Jan 24 10:44:18 2022 +1000
+
+    Removed unnecessary files
+
+[33mcommit b81a9ccb797bdd43b14858b99ae5f8eec0d7f202[m
+Author: Steven <tuxta2@gmail.com>
+Date:   Thu Dec 10 17:28:58 2020 +1000
+
+    Fixed long standing bug that breaks collision detection after dynamically adding a new object during game play
+
+[33mcommit 5f58bddf0a5633eeee3375ffc1d05cd2a97cf000[m
+Author: tuxta <tuxta2@gmail.com>
+Date:   Wed Jan 15 10:53:50 2020 +1000
+
+    Fixed timer pop issue
+
+[33mcommit 4a3acfbc5bd6367d851f27823693bac83c2bc785[m
+Author: tuxta <tuxtatwo@gmail.com>
+Date:   Wed Oct 23 07:46:24 2019 +1000
+
+    Removed magic number for height
+
+[33mcommit 4c04395fc1c8ade9c6ec408f31cd099e78707c97[m
+Author: tuxta <tuxta2@gmail.com>
+Date:   Mon Sep 23 13:12:14 2019 +1000
+
+    Added the type string to the handle collision function to simplify usage
+
+[33mcommit c494d70d001659bd578319bcf8b8ac39c14abda6[m
+Author: Steven <tuxta2@gmail.com>
+Date:   Thu Aug 15 09:19:30 2019 +1000
+
+    Fixed type hinting for collision object
+
+[33mcommit 23529571aac4854c24e98c430ffdc7861b8a0273[m
+Author: tuxta <tuxta2@gmail.com>
+Date:   Thu Aug 8 17:52:08 2019 +1000
+
+    Fixed type issue - would work in later version of Python
+
+[33mcommit 4181837915483aaefdcc9efd1ae30babd4151607[m
+Author: tuxta <tuxta2@gmail.com>
+Date:   Fri Jun 28 21:50:17 2019 +1000
+
+    Added type hinting
+
+[33mcommit 6b20d4159b1887e34185f43c539cfff99a29fb88[m
+Author: tuxta <tuxta2@gmail.com>
+Date:   Sat Jun 22 15:50:26 2019 +1000
+
+    Added support for Hats on Game Controllers
+
+[33mcommit f8110c7e33599ab033ce3930560e86f12b4e7dfa[m
+Author: Steven <tuxta2@gmail.com>
+Date:   Tue Jun 4 07:44:10 2019 +1000
+
+    Added default step function
+
+[33mcommit ea20e5544ca4f022afe84f72717794b61b3ff419[m
+Author: tuxta <tuxta2@gmail.com>
+Date:   Sun Jun 2 17:07:02 2019 +1000
+
+    cx_freeze script added. Can be used with small edits to package any GameFrame Game
+
+[33mcommit ffae36f06a4fe385e117d03a0e4518047dd19af2[m
+Author: tuxta <tuxta2@gmail.com>
+Date:   Sun May 12 10:12:12 2019 +1000
+
+    Added step function for rooms as well as objects
+
+[33mcommit 214c02dda196d91a6502bc030dad5c9cb176128d[m
+Author: tuxta <tuxta2@gmail.com>
+Date:   Sat May 11 16:33:14 2019 +1000
+
+    Added class for accepting alpha numeric input
+
+[33mcommit ce5f0ecd7f0563e9eff1bcbdf04df75cff851e98[m
+Author: Steven <tuxta2@gmail.com>
+Date:   Thu May 2 10:18:14 2019 +1000
+
+    Pop Timing Bug
+    
+    Changed order of events to fix pop timing bug
+
+[33mcommit 8c5bb4520ff5d6b2b7ad1a7022bdcc6d2f2329f7[m
+Author: tuxta <tuxta2@gmail.com>
+Date:   Fri Mar 15 18:22:12 2019 +1000
+
+    init function now takes the database file name as a parameter
+
+[33mcommit a5fbe2ba5f1536d97f2d045b523d23830cf9d5b8[m
+Author: tuxta <tuxta2@gmail.com>
+Date:   Fri Mar 15 18:16:37 2019 +1000
+
+    Added Database class for saving and retrieving game data
+
+[33mcommit 92229e0c23bc8031400afbcb241107ff4c457d07[m
+Author: tuxta <tuxta2@gmail.com>
+Date:   Mon Nov 26 18:46:40 2018 +1000
+
+    VegieSamurai Tutorial
+
+[33mcommit c93b2cacf492ac2488ae51dbb99142b19e1a46a0[m
+Author: tuxta <tuxta2@gmail.com>
+Date:   Sun Nov 18 09:48:11 2018 +1000
+
+    Fixed the remove while iterating bug with reverse enumeration
+
+[33mcommit 21bd8aab7ca8653a544c5a42087698fa8a4ced51[m
+Author: tuxta <tuxta2@gmail.com>
+Date:   Sun Nov 18 09:28:13 2018 +1000
+
+    Moved next_level variable to Globals so that non-sequential movement throught the rooms can be achieved by simply changing this variable
+
+[33mcommit 2670b1b68026f2953ed200835db229a885fa0b94[m
+Author: TUCKER <stuck63@eq.edu.au>
+Date:   Thu Oct 18 09:38:13 2018 +1000
+
+    Added JoyPad support for my arcade machine :-) A generic joystick controller with buttons from 0 to 11
+
+[33mcommit 28450e5f3624431a7cf5e9603e2490eeefbd33be[m
+Author: tuxta <tuxta2@gmail.com>
+Date:   Fri Aug 31 14:50:19 2018 +1000
+
+    Added get_direction_coordinates function to provide x and y coordinates relative to the objects current location in the direction of the current rotation, and given a distance - in this commit it is called speed, but I'll change that later
+
+[33mcommit be4ed7f8b29d61d17da05f56598981ed986d3e5a[m
+Merge: 03086e0 166edf8
+Author: Steven <tuxta2@gmail.com>
+Date:   Thu Aug 30 09:34:41 2018 +1000
+
+    Merge pull request #1 from Jamozzles/master
+    
+    Added functions for rotating objects
+
+[33mcommit 166edf885ec8f29705f2ac4b3cfce927fe7a8149[m
+Author: James Martin <james.martin2003@icloud.com>
+Date:   Wed Aug 29 09:40:35 2018 +1000
+
+    Added functions for rotating objects
+
+[33mcommit 03086e00d8e06a1e1e3cffa12f059bf65ae41c0d[m
+Author: Steven <tuxta2@gmail.com>
+Date:   Sat Jul 28 23:15:01 2018 +1000
+
+    Remove timed events for objects being deleted
+    
+    Fixes a major bug where the object is kept around due to a reference in a timer
+
+[33mcommit 724059a7c9fe62cd300cafd83762f91b45eade22[m
+Author: Steven <tuxta2@gmail.com>
+Date:   Mon Mar 26 17:00:41 2018 +1000
+
+    Added scaling
+    
+    Image will now scale to the provided dimensions
+
+[33mcommit 7d0bce06337dc1f3b69476182a9e10f194c3ec48[m
+Author: Steven <tuxta2@gmail.com>
+Date:   Mon Mar 26 11:28:04 2018 +1000
+
+    Apply alpha for background image
+    
+    Addresses (one of the) performance issues under Windows
+
+[33mcommit 6f157a29bfcbe089f64f5ddbba25013acfd3d129[m
+Author: Steven <tuxta2@gmail.com>
+Date:   Mon Mar 26 11:27:10 2018 +1000
+
+    Added alpha for images
+    
+    Addresses (one of the) performance issues under Windows
+
+[33mcommit 8f3aa2574454c3579071d7c956626369c2070c13[m
+Author: tuxta <tuxta2@gmail.com>
+Date:   Sat Feb 3 20:51:11 2018 +1000
+
+    Fixed Collision list duplicate bug
+
+[33mcommit 3975e8698ca0d0b4e9fff31adf0ac771aaa9776e[m
+Author: Steven <tuxta2@gmail.com>
+Date:   Tue Jan 16 19:25:30 2018 +1000
+
+    Fixed delete bug - removing from the wrong array
+    
+    Was deleting from objects when checking keyboard_objects
+
+[33mcommit a61f8898210c4e7b3fc0180e8ea8b7fe1f35bd96[m
+Merge: b567256 e58f658
+Author: tuxta <tuxta2@gmail.com>
+Date:   Thu Jan 11 11:50:24 2018 +1000
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit b5672564984101d913d5dbb33e0b735cb6afe2b8[m
+Author: tuxta <tuxta2@gmail.com>
+Date:   Thu Jan 11 11:49:57 2018 +1000
+
+    Added Globals.exiting to end the program
+
+[33mcommit e58f6589c10ed0a76726983330b450f7d9b4734f[m
+Author: tuxta <tuxta2@gmail.com>
+Date:   Sun Jan 7 15:54:48 2018 +1000
+
+    Added exiting variable to leave the game when required
+
+[33mcommit 8717151b58e9a7150758cab8e8eaf584c53d457b[m
+Author: tuxta <tuxta2@gmail.com>
+Date:   Thu Jan 4 21:23:55 2018 +1000
+
+    Added wrapper for timer function so that it can be accessed directly within an object
+
+[33mcommit bae3bb2a2d2b6949e974dee7bef1710541e9487e[m
+Author: Steven <tuxta2@gmail.com>
+Date:   Tue Jan 2 18:19:58 2018 +1000
+
+    Update README.md
+
+[33mcommit 7d34e5803f92509c8e6dcd85edd7b3fd2fdf8909[m
+Author: Steven <tuxta2@gmail.com>
+Date:   Tue Jan 2 18:19:27 2018 +1000
+
+    Update README.md
+
+[33mcommit de1bdac930415ea3eee273e3c391de8575721183[m
+Author: tuxta <tuxta2@gmail.com>
+Date:   Tue Jan 2 17:11:30 2018 +1000
+
+    Loading a sound now assumes it is in the Sounds Folder. It does so in a cross platform way.
+
+[33mcommit 1fcd1dfd0434df1bd92175b1f239a2b706e3ea8a[m
+Author: tuxta <tuxta2@gmail.com>
+Date:   Tue Dec 26 17:35:02 2017 +1000
+
+    Set theme jekyll-theme-hacker
+
+[33mcommit 33fe67b9b28ba4c3684047eb65e385bbe6591fc7[m
+Author: tuxta <tuxta2@gmail.com>
+Date:   Thu Dec 21 10:43:11 2017 +1000
+
+    Simplified loading an object image. Now game developers don't need to use os or pygame calls, also reduces 4 lines of code to 2.
+
+[33mcommit a30ddeed01bb6e531b8bd2bea25337f977fa795e[m
+Author: tuxta <tuxta2@gmail.com>
+Date:   Fri Dec 15 12:32:49 2017 +1000
+
+    Added place holder function for object mouse clicked
+
+[33mcommit 7baeb1524e6f88c1b62c388572dcd5100ac5e9ce[m
+Author: tuxta <tuxta2@gmail.com>
+Date:   Fri Dec 15 12:13:08 2017 +1000
+
+    Added mouse click functionality and changed loading of background image to providing only the file name and look in the images folder using cross platform file separators.
+
+[33mcommit 3dcdd67dc4626a4e92be2c84475f00a991e80d0f[m
+Author: tuxta <tuxta2@gmail.com>
+Date:   Mon Dec 11 13:50:23 2017 +1000
+
+    Moved Game variables out of the MainController and into the Global File. This way the MainController does not need to be edited at all.
+
+[33mcommit f74ce955ad452af65a7662a37b0f61bcc2dc3ff3[m
+Author: tuxta <tuxta2@gmail.com>
+Date:   Sat Dec 9 09:43:34 2017 +1000
+
+    Set Main game loop to iterate over an array defining the levels and their order. Game programmers now only need to add the name of another level to the array to include it in the game
+
+[33mcommit cc6e10810e092f5b18ee30e43585237081c2b697[m
+Author: tuxta <tuxta2@gmail.com>
+Date:   Wed Sep 27 10:14:19 2017 +1000
+
+    Blocked Bug fixed
+
+[33mcommit 65aa4505a406dc52a1a5677cfa8829d362a26edc[m
+Author: tuxta <tuxta2@gmail.com>
+Date:   Tue Sep 26 23:18:07 2017 +1000
+
+    Added a function to check for potential collisions. Required for the platform game to function correctly
+
+[33mcommit e6c8da0a571ea5335dcae4e47fb545760764bead[m
+Author: tuxta <tuxta2@gmail.com>
+Date:   Tue Sep 26 20:48:45 2017 +1000
+
+    Fixed Sound delay bug
+
+[33mcommit 3a11c4ce6769459bd458cd104e578462c00d374e[m
+Author: tuxta <tuxta2@gmail.com>
+Date:   Tue Sep 26 20:27:31 2017 +1000
+
+    Fixed add room object bug
+
+[33mcommit d50f9ca936dc8f4c51bdc76ed3b5f3b156d0fd9b[m
+Merge: 57c37cd 2d665df
+Author: tuxta <tuxta2@gmail.com>
+Date:   Mon Sep 25 21:35:31 2017 +1000
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 57c37cd1a3af0ebc6ab905128e163381361db7f8[m
+Author: tuxta <tuxta2@gmail.com>
+Date:   Mon Sep 25 21:35:05 2017 +1000
+
+    Merged the add_room_object function and add_room_object_dynamic into the one call.
+
+[33mcommit 2d665dfdb07c775a9f2e6e81cf2edb0fb128e4c5[m
+Author: tuxta <tuxta2@gmail.com>
+Date:   Sun Sep 24 14:34:09 2017 +1000
+
+    Added the set_direction function to simplify object movement. Rather than calculating the x and y movements per frame, this function will calculate it given and angle and a speed.
+
+[33mcommit edd2a6418a3360c53ef4564d9e65c09d8c14eb52[m
+Author: tuxta <tuxta2@gmail.com>
+Date:   Sun Sep 24 12:56:10 2017 +1000
+
+    Added Images folder to store game images
+
+[33mcommit f333ea73cdcd0efc1f02d56438d721dde6820dbd[m
+Author: tuxta <tuxta2@gmail.com>
+Date:   Sun Sep 24 12:30:30 2017 +1000
+
+    Set Level progression as a comment
+
+[33mcommit b97e42966405cceb1fdf87a9a43f1f7713690037[m
+Author: tuxta <tuxta2@gmail.com>
+Date:   Wed Sep 20 21:57:31 2017 +1000
+
+    Added sound. Fixed non-breaking bug
+
+[33mcommit 7a3b1e48c2333f40ed34075fb7d8c5a60adb4a2d[m
+Author: Steven Tucker <tuxta2@gmail.com>
+Date:   Sun Jul 30 22:27:20 2017 +1000
+
+    Added ability to dynamically add objects with collision updates.
+
+[33mcommit 79d1b6ea20f389caf86c80858422732236e8352e[m
+Author: Steven Tucker <tuxta2@gmail.com>
+Date:   Sat Jul 29 19:03:31 2017 +1000
+
+    Added background scrolling (vertical only for now) and cleaned up Controller
+
+[33mcommit 95d9ac3e9566e8ce4465a5f8493299ab5933039c[m
+Author: Steven Tucker <tuxta2@gmail.com>
+Date:   Fri Jul 28 22:14:28 2017 +1000
+
+    Added user events. Runs the given function after the given number of ticks (Refresh rate)
+
+[33mcommit 3062d77beaa6ee5405be6e4320ff8e8a590d5cff[m
+Author: Steven Tucker <tuxta2@gmail.com>
+Date:   Tue Jul 25 21:36:54 2017 +1000
+
+    Added class to handle text objects in the room.
+    Inherits from RoomObject, so can be used just as any other object (collisions etc), but has the extra ability to define the font type, size and if it is bolded.
+
+[33mcommit b115abe717fa6abaf5018fbff11c6823cb63a917[m
+Author: Steven Tucker <tuxta2@gmail.com>
+Date:   Sun Jul 23 22:21:47 2017 +1000
+
+    Added Block function and updated layers
+
+[33mcommit b3985fc8a23280558694379d941d2988365d215c[m
+Author: Steven Tucker <tuxta2@gmail.com>
+Date:   Wed Jul 12 15:04:46 2017 +1000
+
+    Initial upload of code.
+    Basic functionality accomplished, features to be added.
+
+[33mcommit 8372f39758646dd14c3bb5ec8af3e3fb34fb5c60[m
+Author: tuxta <tuxta2@gmail.com>
+Date:   Wed Jul 12 14:59:05 2017 +1000
+
+    Initial commit

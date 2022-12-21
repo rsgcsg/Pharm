@@ -24,4 +24,16 @@ and running setup.py with the command build_exe.
 
 ### Chen Sunguo Record
 #### git knowledge
+- git add
+- git commit
+- git checkout
+- git pull
+- git push
+- git clone
+- git branch
+- git status
+- git log
+- git config email
+- git confit name
+
 
