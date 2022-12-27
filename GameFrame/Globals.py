@@ -39,6 +39,6 @@ class Globals:
     total_count = 0
     destroyed_count = 0
     money=0
-    itemName=0
+    itemData=[0,0,0]
     plantMode=False
 

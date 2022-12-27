@@ -37,26 +37,24 @@ class Level1(Level):
                 self.moneyLeft.text=('$%s'%(Globals.money))
                 self.moneyLeft.update_text()
             if event.type==2:
-                if Globals.itemName=="sell":
-                    if self.locationData[self.findLocation(pygame.mouse.get_pos()[0],pygame.mouse.get_pos()[1])[1]][self.findLocation(pygame.mouse.get_pos()[0],pygame.mouse.get_pos()[1])[0]]!=0:
-                        self.delete_object(self.items[str(self.locationData[self.findLocation(pygame.mouse.get_pos()[0],pygame.mouse.get_pos()[1])[1]][self.findLocation(pygame.mouse.get_pos()[0],pygame.mouse.get_pos()[1])[0]])+"_"+str(self.findLocation(pygame.mouse.get_pos()[0],pygame.mouse.get_pos()[1])[1])+"_"+str(self.findLocation(pygame.mouse.get_pos()[0],pygame.mouse.get_pos()[1])[0])])
-                        Globals.money+=math.floor(self.itemDict[str(self.locationData[self.findLocation(pygame.mouse.get_pos()[0],pygame.mouse.get_pos()[1])[1]][self.findLocation(pygame.mouse.get_pos()[0],pygame.mouse.get_pos()[1])[0]])][1]/2)
+                if Globals.itemData[0]=="sell":
+                    if self.locationData[Globals.itemData[2]][Globals.itemData[1]] != 0:
+                        self.delete_object(self.items[str(self.locationData[Globals.itemData[2]][Globals.itemData[1]])+"_"+str(Globals.itemData[2])+"_"+str(Globals.itemData[1])])
+                        Globals.money+=math.floor(self.itemDict[str(self.locationData[Globals.itemData[2]][Globals.itemData[1]])][1]/2)
                         self.moneyLeft.text=('$%s'%(Globals.money))
                         self.moneyLeft.update_text()
-                        self.locationData[self.findLocation(pygame.mouse.get_pos()[0],pygame.mouse.get_pos()[1])[1]][self.findLocation(pygame.mouse.get_pos()[0],pygame.mouse.get_pos()[1])[0]]=0
+                        self.locationData[Globals.itemData[2]][Globals.itemData[1]]=0
 
-                elif Globals.money>=self.itemDict[Globals.itemName][1]:
+                elif Globals.money>=self.itemDict[Globals.itemData[0]][1]:
 
-                    if self.addItem(Globals.itemName,
-                    self.findLocation(pygame.mouse.get_pos()[0],pygame.mouse.get_pos()[1])[0],
-                    self.findLocation(pygame.mouse.get_pos()[0],pygame.mouse.get_pos()[1])[1]) ==True:
-                        Globals.money-=self.itemDict[Globals.itemName][1]
+                    if self.addItem(Globals.itemData[0],Globals.itemData[1],Globals.itemData[2]) ==True:
+                        Globals.money-=self.itemDict[Globals.itemData[0]][1]
                         self.moneyLeft.text=('$%s'%(Globals.money))
                         self.moneyLeft.update_text()
 
             if event.type==3:
                 if pygame.mouse.get_pressed(3)[0]==True:
-                    if (pygame.mouse.get_pos()[0] in range(150,850) and pygame.mouse.get_pos()[1] in range(125,475)) and Globals.money>=self.itemDict[Globals.itemName][1]:
+                    if (pygame.mouse.get_pos()[0] in range(150,850) and pygame.mouse.get_pos()[1] in range(125,475)) and Globals.money>=self.itemDict[Globals.itemData[0]][1]:
                         currentBlock = positionDisplay(self,
                         self.findLocation(pygame.mouse.get_pos()[0],pygame.mouse.get_pos()[1])[0]*70+150,
                         self.findLocation(pygame.mouse.get_pos()[0],pygame.mouse.get_pos()[1])[1]*70+125)
@@ -68,17 +66,15 @@ class Level1(Level):
                 else:
                     self.delete_object(self.preBlock)
 
-
-
     def addItem(self,item,x,y):
         if self.locationData[y][x]==0:
             self.items[str(item)+"_"+str(y)+"_"+str(x)]=self.itemDict[item][0](self,self.itemDict[item][2]+70*x,self.itemDict[item][3]+70*y)
             self.add_room_object(self.items[str(item)+"_"+str(y)+"_"+str(x)])
             self.locationData[y][x]=str(item)
             return True
-
-
     def findLocation(self,x,y):
         locationX=math.floor((x-150)/70)
         locationY=math.floor((y-125)/70)
         return locationX,locationY
+
+
